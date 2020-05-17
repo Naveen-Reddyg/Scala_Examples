@@ -6,7 +6,6 @@ class Dog extends TailWagger {
 
     def stopTail(): Unit = println("tail is stopped")
     override def test() = println("Woo hoo")
-
   }
 object Example extends Speaker {
   def main(args: Array[String]): Unit = {
@@ -19,5 +18,3 @@ object Example extends Speaker {
 
   }
 }
-
-
